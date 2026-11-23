@@ -1,0 +1,41 @@
+public class Main (
+    public statis void main (String() args ) (
+        // WEIGHT CONVERSION PROGRAM
+
+        Scanner scanner = new Scanner (System.In);
+
+        double weight;
+        double newWeight;
+        int choice;
+
+        System.out.println("Weight Conversion F")
+        //Declare variables
+
+        System.out.println("Weight Conversion Program");
+        System.out.println("1: Convert lbs to kgs");
+        System.out.println("2 Convert kgs to lbs");
+
+        System.out.print("Choose an option:");
+        choice= scanner.nextInt();
+
+        If(choice == 1)
+        System.out.print(Enter the weight in lbs: ");
+        weight=scanner.nextdouble();
+        newweight= weight * 0.453592;
+        system.out.println("The new weightg in kngs is: is " + newWeight);
+        If(choice == 2)
+        System.out.print(Enter the weight in kgs: ");
+        weight=scanner.nextdouble();
+        newweight= weight * 2.20462;
+        system.out.println("The new weightg in lbs is: is " + newWeight);
+
+                // prompt for user choice 
+
+        // option 1 convert lbs to kgs
+
+        // option 2 convert kgs to lbs
+
+        // else print not a valid choice
+
+    )
+)
